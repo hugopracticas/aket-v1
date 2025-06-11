@@ -1,0 +1,33 @@
+.container_medical_services {
+    display: flex;
+    height: 550px;
+}
+
+.full-height-image {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+  border-bottom-right-radius: 40%;
+}
+
+/**/
+.conyainer_list {
+  margin-left: 110px;
+  width: 900px;
+  display:inline
+}
+
+.list_of_services {
+  display: flex;
+  flex-direction: column;
+  /* align-content: center;
+  justify-content: center;
+  width: auto; */
+}
+
+.list_of_services_div{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid purple;
+  margin-top: 27px;
+}

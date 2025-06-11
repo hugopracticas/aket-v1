@@ -1,0 +1,43 @@
+.background {
+  background-color: #411e75;
+  position: relative;
+  background: linear-gradient(135deg, #470083, #8e44ad);
+  height: 700px;
+}
+
+.container {
+  display: flex;
+  max-width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+}
+
+.weCare {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  font-size: 60px;
+  color: azure;
+  padding-left: 100px;
+}
+
+
+.people {
+  flex: 1;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  /* clip-path: polygon(50% 0%, 100% 0, 100% 43%, 99% 100%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%); */
+  
+
+  /* También puedes usar clip-path con `polygon(...)` o SVG */
+}
+
+.people img {
+  border-top-left-radius: 60%;
+  flex-flow: row;
+  width: 85%;
+  height: 85%;
+}
